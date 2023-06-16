@@ -35,3 +35,18 @@ my scuffed alignment view
 this project may have a flaw already, single clicks
 
 maybe it's not noticeable but so far I'm noticing it lol even with just two keys
+
+12:19 PM
+
+losing steam, feeling of dread in my mind
+
+12:22 PM
+
+THEY KILLED MY WIFE AND MY BABY!!! (Megadeth)
+
+ugh man whatever
+
+12:25 PM
+
+hmm... the rapid clicks moves windows around/interpretted as gestures
+

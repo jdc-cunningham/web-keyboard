@@ -1,6 +1,9 @@
 import { useState, useEffect } from 'react';
 import './WebKeyboard.scss';
 import { keys } from './key-map';
+import { cleanup } from '@testing-library/react';
+
+let cleanUpTimeout;
 
 function WebKeyboard() {
   const [activeKeys, setActiveKeys] = useState([]);
@@ -19,9 +22,16 @@ function WebKeyboard() {
   }
 
   const keyOff = (key) => {
+    clearTimeout(cleanUpTimeout);
+
     setTimeout(() => {
       setActiveKeys(activeKeys.filter(keyActive => keyActive !== key));
     }, 100);
+
+    cleanUpTimeout = setTimeout(() => {
+      console.log('clean up');
+      setActiveKeys([]);
+    }, 250);
   }
 
   useEffect(() => {
