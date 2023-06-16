@@ -388,29 +388,44 @@ export const keys = {
       rotation: "0deg"
     },
   },
-  "shift": {
+  "shift_1": {
+    alt: "shift",
+    vals: ["shift"],
+    loc: {
+      x: '5.5%',
+      y: '37%',
+      rotation: "0deg"
+    },
+    class: 'scale tab shift-left'
+  },
+  "shift_2": {
+    alt: "shift",
     vals: ["shift"],
     loc: {
       x: '',
-      y: '',
+      x_f: '0.8%',
+      y: '37%',
       rotation: "0deg"
     },
+    class: 'scale tab shift-right'
   },
   "tab": {
     vals: ["tab"],
     loc: {
-      x: '',
-      y: '',
+      x: '5.5%',
+      y: '5%',
       rotation: "0deg"
     },
+    class: 'scale tab'
   },
   "caps": {
     vals: ["caps"],
     loc: {
-      x: '',
-      y: '',
+      x: '5.25%',
+      y: '21%',
       rotation: "0deg"
     },
+    class: 'scale caps'
   },
   "ctrl": {
     vals: ["ctrl"],
@@ -420,13 +435,34 @@ export const keys = {
       rotation: "0deg"
     },
   },
-  "alt": {
+  "alt_1": {
+    alt: 'alt',
+    vals: ["alt"],
+    loc: {
+      x: '6.25%',
+      y: '54.5%',
+      rotation: "0deg"
+    },
+  },
+  "alt_2": {
+    alt: 'alt',
     vals: ["alt"],
     loc: {
       x: '',
-      y: '',
+      x_f: '1.5%',
+      y: '54.5%',
       rotation: "0deg"
     },
+  },
+  "enter": {
+    vals: ["enter"],
+    loc: {
+      x: '',
+      x_f: '0.5%',
+      y: '21%',
+      rotation: "0deg"
+    },
+    class: 'scale enter'
   },
   "up": {
     vals: ["up"],

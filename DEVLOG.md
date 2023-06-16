@@ -69,3 +69,7 @@ I just realized there's no room for the numbers... so I'll go for a toggle to sh
 1:31 PM
 
 I think the keys are a tad too big :(
+
+1:43 PM
+
+oh man this keyboard is scuffed
