@@ -55,3 +55,9 @@ hmm... the rapid clicks moves windows around/interpretted as gestures
 this is kind of fun making an interface, I want to add a sound to it too
 
 ugh... but the rapid typing triggers some gesture (minimizes chromium)
+
+1:03 PM
+
+lol wtf is this
+
+<img src="wtf-keyboard.png"/>
