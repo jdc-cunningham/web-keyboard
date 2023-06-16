@@ -24,3 +24,8 @@ I'm not interested in a full keyboard experience, just the major stuff, it's mos
 
 The reason I'm making this is currently my Chromebook running Manjaro Linux won't trigger a keyboard while in tablet mode so I'll have this keyboard built into my web app.
 
+11:52 AM
+
+my scuffed alignment view
+
+<img src="./align.JPG"/>
