@@ -4,7 +4,7 @@ export const keys = {
     loc: {
       x: 0,
       y: 0,
-      rotation: ""
+      rotation: "0deg"
     },
   },
   "b": {
@@ -12,7 +12,7 @@ export const keys = {
     loc: {
       x: 0,
       y: 0,
-      rotation: ""
+      rotation: "0deg"
     },
   },
   "c": {
@@ -20,7 +20,7 @@ export const keys = {
     loc: {
       x: 0,
       y: 0,
-      rotation: ""
+      rotation: "0deg"
     },
   },
   "d": {
@@ -28,7 +28,7 @@ export const keys = {
     loc: {
       x: 0,
       y: 0,
-      rotation: ""
+      rotation: "0deg"
     },
   },
   "e": {
@@ -36,7 +36,7 @@ export const keys = {
     loc: {
       x: 0,
       y: 0,
-      rotation: ""
+      rotation: "0deg"
     },
   },
   "f": {
@@ -44,7 +44,7 @@ export const keys = {
     loc: {
       x: 0,
       y: 0,
-      rotation: ""
+      rotation: "0deg"
     },
   },
   "g": {
@@ -52,7 +52,7 @@ export const keys = {
     loc: {
       x: 0,
       y: 0,
-      rotation: ""
+      rotation: "0deg"
     },
   },
   "h": {
@@ -60,7 +60,7 @@ export const keys = {
     loc: {
       x: 0,
       y: 0,
-      rotation: ""
+      rotation: "0deg"
     },
   },
   "i": {
@@ -68,7 +68,7 @@ export const keys = {
     loc: {
       x: 0,
       y: 0,
-      rotation: ""
+      rotation: "0deg"
     },
   },
   "j": {
@@ -76,7 +76,7 @@ export const keys = {
     loc: {
       x: 0,
       y: 0,
-      rotation: ""
+      rotation: "0deg"
     },
   },
   "k": {
@@ -84,7 +84,7 @@ export const keys = {
     loc: {
       x: 0,
       y: 0,
-      rotation: ""
+      rotation: "0deg"
     },
   },
   "l": {
@@ -92,7 +92,7 @@ export const keys = {
     loc: {
       x: 0,
       y: 0,
-      rotation: ""
+      rotation: "0deg"
     },
   },
   "m": {
@@ -100,7 +100,7 @@ export const keys = {
     loc: {
       x: 0,
       y: 0,
-      rotation: ""
+      rotation: "0deg"
     },
   },
   "n": {
@@ -108,7 +108,7 @@ export const keys = {
     loc: {
       x: 0,
       y: 0,
-      rotation: ""
+      rotation: "0deg"
     },
   },
   "o": {
@@ -116,7 +116,7 @@ export const keys = {
     loc: {
       x: 0,
       y: 0,
-      rotation: ""
+      rotation: "0deg"
     },
   },
   "p": {
@@ -124,7 +124,7 @@ export const keys = {
     loc: {
       x: 0,
       y: 0,
-      rotation: ""
+      rotation: "0deg"
     },
   },
   "q": {
@@ -132,7 +132,7 @@ export const keys = {
     loc: {
       x: 0,
       y: 0,
-      rotation: ""
+      rotation: "0deg"
     },
   },
   "r": {
@@ -140,7 +140,7 @@ export const keys = {
     loc: {
       x: 0,
       y: 0,
-      rotation: ""
+      rotation: "0deg"
     },
   },
   "s": {
@@ -148,7 +148,7 @@ export const keys = {
     loc: {
       x: 0,
       y: 0,
-      rotation: ""
+      rotation: "0deg"
     },
   },
   "t": {
@@ -156,7 +156,7 @@ export const keys = {
     loc: {
       x: 0,
       y: 0,
-      rotation: ""
+      rotation: "0deg"
     },
   },
   "u": {
@@ -164,7 +164,7 @@ export const keys = {
     loc: {
       x: 0,
       y: 0,
-      rotation: ""
+      rotation: "0deg"
     },
   },
   "v": {
@@ -172,7 +172,7 @@ export const keys = {
     loc: {
       x: 0,
       y: 0,
-      rotation: ""
+      rotation: "0deg"
     },
   },
   "w": {
@@ -180,7 +180,7 @@ export const keys = {
     loc: {
       x: 0,
       y: 0,
-      rotation: ""
+      rotation: "0deg"
     },
   },
   "x": {
@@ -188,7 +188,7 @@ export const keys = {
     loc: {
       x: 0,
       y: 0,
-      rotation: ""
+      rotation: "0deg"
     },
   },
   "y": {
@@ -196,7 +196,7 @@ export const keys = {
     loc: {
       x: 0,
       y: 0,
-      rotation: ""
+      rotation: "0deg"
     },
   },
   "z": {
@@ -204,7 +204,7 @@ export const keys = {
     loc: {
       x: 0,
       y: 0,
-      rotation: ""
+      rotation: "0deg"
     },
   },
   ";": {
@@ -212,7 +212,7 @@ export const keys = {
     loc: {
       x: 0,
       y: 0,
-      rotation: ""
+      rotation: "0deg"
     },
   },
   "'": {
@@ -220,7 +220,7 @@ export const keys = {
     loc: {
       x: 0,
       y: 0,
-      rotation: ""
+      rotation: "0deg"
     },
   },
   "[": {
@@ -228,7 +228,7 @@ export const keys = {
     loc: {
       x: 0,
       y: 0,
-      rotation: ""
+      rotation: "0deg"
     },
   },
   "]": {
@@ -236,7 +236,7 @@ export const keys = {
     loc: {
       x: 0,
       y: 0,
-      rotation: ""
+      rotation: "0deg"
     },
   },
   "/": {
@@ -244,7 +244,7 @@ export const keys = {
     loc: {
       x: 0,
       y: 0,
-      rotation: ""
+      rotation: "0deg"
     },
   },
   ",": {
@@ -252,7 +252,7 @@ export const keys = {
     loc: {
       x: 0,
       y: 0,
-      rotation: ""
+      rotation: "0deg"
     },
   },
   ".": {
@@ -260,7 +260,7 @@ export const keys = {
     loc: {
       x: 0,
       y: 0,
-      rotation: ""
+      rotation: "0deg"
     },
   },
   "/": {
@@ -268,7 +268,7 @@ export const keys = {
     loc: {
       x: 0,
       y: 0,
-      rotation: ""
+      rotation: "0deg"
     },
   },
   "1": {
@@ -276,7 +276,7 @@ export const keys = {
     loc: {
       x: 0,
       y: 0,
-      rotation: ""
+      rotation: "0deg"
     },
   },
   "2": {
@@ -284,7 +284,7 @@ export const keys = {
     loc: {
       x: 0,
       y: 0,
-      rotation: ""
+      rotation: "0deg"
     },
   },
   "3": {
@@ -292,7 +292,7 @@ export const keys = {
     loc: {
       x: 0,
       y: 0,
-      rotation: ""
+      rotation: "0deg"
     },
   },
   "4": {
@@ -300,7 +300,7 @@ export const keys = {
     loc: {
       x: 0,
       y: 0,
-      rotation: ""
+      rotation: "0deg"
     },
   },
   "5": {
@@ -308,7 +308,7 @@ export const keys = {
     loc: {
       x: 0,
       y: 0,
-      rotation: ""
+      rotation: "0deg"
     },
   },
   "6": {
@@ -316,7 +316,7 @@ export const keys = {
     loc: {
       x: 0,
       y: 0,
-      rotation: ""
+      rotation: "0deg"
     },
   },
   "7": {
@@ -324,7 +324,7 @@ export const keys = {
     loc: {
       x: 0,
       y: 0,
-      rotation: ""
+      rotation: "0deg"
     },
   },
   "8": {
@@ -332,7 +332,7 @@ export const keys = {
     loc: {
       x: 0,
       y: 0,
-      rotation: ""
+      rotation: "0deg"
     },
   },
   "9": {
@@ -340,7 +340,7 @@ export const keys = {
     loc: {
       x: 0,
       y: 0,
-      rotation: ""
+      rotation: "0deg"
     },
   },
   "0": {
@@ -348,7 +348,7 @@ export const keys = {
     loc: {
       x: 0,
       y: 0,
-      rotation: ""
+      rotation: "0deg"
     },
   },
   "-": {
@@ -356,7 +356,7 @@ export const keys = {
     loc: {
       x: 0,
       y: 0,
-      rotation: ""
+      rotation: "0deg"
     },
   },
   "+": {
@@ -364,7 +364,7 @@ export const keys = {
     loc: {
       x: 0,
       y: 0,
-      rotation: ""
+      rotation: "0deg"
     },
   },
   "shift": {
@@ -372,7 +372,7 @@ export const keys = {
     loc: {
       x: 0,
       y: 0,
-      rotation: ""
+      rotation: "0deg"
     },
   },
   "tab": {
@@ -380,7 +380,7 @@ export const keys = {
     loc: {
       x: 0,
       y: 0,
-      rotation: ""
+      rotation: "0deg"
     },
   },
   "caps": {
@@ -388,7 +388,7 @@ export const keys = {
     loc: {
       x: 0,
       y: 0,
-      rotation: ""
+      rotation: "0deg"
     },
   },
   "ctrl": {
@@ -396,7 +396,7 @@ export const keys = {
     loc: {
       x: 0,
       y: 0,
-      rotation: ""
+      rotation: "0deg"
     },
   },
   "alt": {
@@ -404,7 +404,7 @@ export const keys = {
     loc: {
       x: 0,
       y: 0,
-      rotation: ""
+      rotation: "0deg"
     },
   },
   "up": {
@@ -412,7 +412,7 @@ export const keys = {
     loc: {
       x: 0,
       y: 0,
-      rotation: ""
+      rotation: "0deg"
     },
     alt: "^",
     class: "up"
@@ -422,7 +422,7 @@ export const keys = {
     loc: {
       x: 0,
       y: 0,
-      rotation: ""
+      rotation: "0deg"
     },
     alt: "^",
     class: "down"
@@ -432,7 +432,7 @@ export const keys = {
     loc: {
       x: 0,
       y: 0,
-      rotation: ""
+      rotation: "0deg"
     },
     alt: "^",
     class: "left"
@@ -442,7 +442,7 @@ export const keys = {
     loc: {
       x: 0,
       y: 0,
-      rotation: ""
+      rotation: "0deg"
     },
     alt: "^",
     class: "right"
@@ -451,10 +451,9 @@ export const keys = {
     vals: [" "],
     loc: {
       x: "50%",
-      y: "calc(100% - 4rem)",
+      y: "calc(100% - 132px - 1rem)",
       rotation: "",
-      translate: "-50%, 0"
     },
-    class: "space"
+    class: "space",
   }
 };
