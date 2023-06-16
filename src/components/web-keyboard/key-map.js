@@ -2,8 +2,8 @@ export const keys = {
   "a": {
     vals: ["a"],
     loc: {
-      x: '',
-      y: '',
+      x: '18%',
+      y: '17%',
       rotation: "0deg"
     },
   },
@@ -18,8 +18,8 @@ export const keys = {
   "c": {
     vals: ["c"],
     loc: {
-      x: '',
-      y: '',
+      x: '36%',
+      y: '60%',
       rotation: "0deg"
     },
   },
@@ -93,7 +93,8 @@ export const keys = {
     vals: ["l"],
     loc: {
       x: '',
-      y: '',
+      x_f: '26%',
+      y: '20%',
       rotation: "0deg"
     },
   },
@@ -148,8 +149,8 @@ export const keys = {
   "s": {
     vals: ["s"],
     loc: {
-      x: '',
-      y: '',
+      x: '26%',
+      y: '20%',
       rotation: "0deg"
     },
   },
@@ -164,8 +165,8 @@ export const keys = {
   "u": {
     vals: ["u"],
     loc: {
-      x: '',
-      y: '',
+      x_f: '40%',
+      y: '19%',
       rotation: "0deg"
     },
   },
@@ -213,7 +214,8 @@ export const keys = {
     vals: [";", ":"],
     loc: {
       x: '',
-      y: '',
+      x_f: '18%',
+      y: '17%',
       rotation: "0deg"
     },
   },
@@ -453,7 +455,7 @@ export const keys = {
     vals: [" "],
     loc: {
       x: "50%",
-      y: "calc(100% - 132px - 1rem)",
+      y: "calc(100% - 132px)",
       rotation: "",
     },
     class: "space",
