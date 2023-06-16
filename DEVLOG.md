@@ -95,3 +95,11 @@ ASTRA man... I'm down 80% on that lol
 2:20 PM
 
 this is going to suck this down scale
+
+2:37 PM
+
+generally it's 10% down, 2% across
+
+2:40 PM
+
+cat distraction
