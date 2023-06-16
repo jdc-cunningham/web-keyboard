@@ -7,6 +7,10 @@
   border-top: 1px solid #ccc;
   touch-action: none;
 
+  .hidden {
+    display: none !important;
+  }
+
   .char {
     display: flex;
   }
@@ -79,5 +83,13 @@
 
   &.caps, &.enter {
     width: 15rem !important;
+  }
+
+  &.ctrl-1 {
+    width: 12rem !important;
+  }
+
+  &.shift-left {
+    width: 10.5rem !important;
   }
 }

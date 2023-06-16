@@ -117,3 +117,21 @@ distracted, plugged in an external monitor to speed it up, was switching virtual
 It is arguable it would be easier to use flex to design this keyboard vs. manual positioning
 
 However I was initially trying to do the ergonomic style
+
+6:18 PM
+
+got some good news... offer in the works, light on the hill (damn throw back)
+
+I just realzied this keyboard is aligned with the bottom right of the container ugh... gotta shift it again
+
+I'm pretty spent right now, didn't sleep well today
+
+6:24 PM
+
+feeling slow, lost the drive, hungry
+
+I've got like 3 weeks off still lol... on the down side I'm broke... I might have to sell more things
+
+6:32 PM
+
+this isn't happening... I'll pick it up tomorrow

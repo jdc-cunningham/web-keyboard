@@ -53,7 +53,7 @@ function WebKeyboard() {
           onTouchStart={() => keyOn(key)}
           onTouchEnd={() => keyOff(key)}
           style={{
-            top: `${keyInfo.loc.y}`,
+            top: `${keyInfo.loc.y || 750}px`,
             left: `${keyInfo.loc.x}`,
             right: `${keyInfo.loc?.x_f}`,
             transform: keyInfo.loc?.rotation ? `rotate(${keyInfo.loc.rotation}deg)` : '',

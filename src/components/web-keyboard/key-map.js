@@ -218,8 +218,8 @@ export const keys = {
   "z": {
     vals: ["z"],
     loc: {
-      x: '22%',
-      y: '52%',
+      x: '24.5%',
+      y: '75%',
       rotation: "0deg"
     },
   },
@@ -406,8 +406,8 @@ export const keys = {
     alt: "shift",
     vals: ["shift"],
     loc: {
-      x: '5.5%',
-      y: '37%',
+      x: '16.25%',
+      y: '75%',
       rotation: "0deg"
     },
     class: 'scale tab shift-left'
@@ -421,7 +421,7 @@ export const keys = {
       y: '37%',
       rotation: "0deg"
     },
-    class: 'scale tab shift-right'
+    class: 'scale tab shift-right hidden'
   },
   "tab": {
     vals: ["tab"],
@@ -445,10 +445,11 @@ export const keys = {
     alt: "ctrl",
     vals: ["ctrl"],
     loc: {
-      x: '6.25%',
-      y: '54.5%',
+      x: '16.25%',
+      y: '92%',
       rotation: "0deg"
     },
+    class: 'ctrl-1'
   },
   "ctrl_2": {
     alt: "ctrl",
@@ -465,8 +466,8 @@ export const keys = {
     alt: 'alt',
     vals: ["alt"],
     loc: {
-      x: '12.5%',
-      y: '54.5%',
+      x: '25.5%',
+      y: '92%',
       rotation: "0deg"
     },
   },
@@ -485,8 +486,8 @@ export const keys = {
     vals: ["enter"],
     loc: {
       x: '',
-      x_f: '0.5%',
-      y: '21%',
+      x_f: '1.125%',
+      y: '56%',
       rotation: "0deg"
     },
     class: 'scale enter'
