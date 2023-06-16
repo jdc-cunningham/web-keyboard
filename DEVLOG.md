@@ -73,3 +73,7 @@ I think the keys are a tad too big :(
 1:43 PM
 
 oh man this keyboard is scuffed
+
+1:57 PM
+
+back on quick snack break
