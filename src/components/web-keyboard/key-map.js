@@ -10,7 +10,7 @@ export const keys = {
   "b": {
     vals: ["b"],
     loc: {
-      x: '47%',
+      x: '47.5%',
       y: '70%',
       rotation: "0deg",
     },
@@ -106,7 +106,7 @@ export const keys = {
   "m": {
     vals: ["m"],
     loc: {
-      x_f: '36%',
+      x_f: '35.5%',
       y: '70%',
       rotation: "0deg"
     },
@@ -114,7 +114,7 @@ export const keys = {
   "n": {
     vals: ["n"],
     loc: {
-      x: '52.25%',
+      x: '53.25%',
       y: '70%',
       rotation: "0deg"
     },
@@ -447,8 +447,8 @@ export const keys = {
     vals: ["ctrl"],
     loc: {
       x: '',
-      x_f: '23.25%',
-      y: '70%',
+      x_f: '19.75%',
+      y: '92%',
       rotation: "0deg"
     },
     class: 'scale'
@@ -467,8 +467,8 @@ export const keys = {
     vals: ["alt"],
     loc: {
       x: '',
-      x_f: '28.5%',
-      y: '70%',
+      x_f: '25.5%',
+      y: '92%',
       rotation: "0deg"
     },
     class: 'scale'
@@ -487,8 +487,8 @@ export const keys = {
     vals: ["up"],
     loc: {
       x: '',
-      x_f: '5%',
-      y: '64.5%',
+      x_f: '7%',
+      y: '74%',
       rotation: "0deg"
     },
     alt: "^",
@@ -498,8 +498,8 @@ export const keys = {
     vals: ["down"],
     loc: {
       x: '',
-      x_f: '5%',
-      y: '80%',
+      x_f: '7%',
+      y: '92%',
       rotation: "0deg"
     },
     alt: "^",
@@ -509,8 +509,8 @@ export const keys = {
     vals: ["left"],
     loc: {
       x: '',
-      x_f: '10%',
-      y: '80%',
+      x_f: '13%',
+      y: '92%',
       rotation: "0deg"
     },
     alt: "^",
@@ -520,8 +520,8 @@ export const keys = {
     vals: ["right"],
     loc: {
       x: '',
-      x_f: '0',
-      y: '80%',
+      x_f: '1%',
+      y: '92%',
       rotation: "0deg"
     },
     alt: "^",
@@ -531,7 +531,7 @@ export const keys = {
     vals: [" "],
     loc: {
       x: "50%",
-      y: "calc(100% - 5%)",
+      y: "92%",
       rotation: "",
     },
     class: "space",

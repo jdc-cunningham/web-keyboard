@@ -107,3 +107,13 @@ cat distraction
 3:18 PM
 
 it might be defeat but I may just build a conventional design in order to get this done soon
+
+3:38 PM
+
+distracted, plugged in an external monitor to speed it up, was switching virtual desktops
+
+3:43 PM
+
+It is arguable it would be easier to use flex to design this keyboard vs. manual positioning
+
+However I was initially trying to do the ergonomic style
