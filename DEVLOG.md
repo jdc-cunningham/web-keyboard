@@ -61,3 +61,11 @@ ugh... but the rapid typing triggers some gesture (minimizes chromium)
 lol wtf is this
 
 <img src="wtf-keyboard.png"/>
+
+1:11 PM
+
+I just realized there's no room for the numbers... so I'll go for a toggle to show a row of numbers
+
+1:31 PM
+
+I think the keys are a tad too big :(

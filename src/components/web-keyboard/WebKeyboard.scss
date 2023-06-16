@@ -6,6 +6,24 @@
   max-height: 715px;
   border-top: 1px solid #ccc;
   touch-action: none;
+
+  .char {
+    display: flex;
+  }
+
+  .number {
+    display: none;
+  }
+
+  &.numbers-on {
+    .char {
+      display: none;
+    }
+
+    .number {
+      display: flex;
+    }
+  }
 }
 
 .WebKeyboard__key {

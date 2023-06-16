@@ -138,10 +138,11 @@ export const keys = {
   "q": {
     vals: ["q"],
     loc: {
-      x: '',
-      y: '',
+      x: '12%',
+      y: '5%',
       rotation: "0deg"
     },
+    class: 'scale'
   },
   "r": {
     vals: ["r"],
@@ -239,25 +240,31 @@ export const keys = {
     vals: ["[", "{"],
     loc: {
       x: '',
-      y: '',
+      x_f: '12%',
+      y: '5%',
       rotation: "0deg"
     },
+    class: 'scale'
   },
   "]": {
     vals: ["]", "}"],
     loc: {
       x: '',
-      y: '',
+      x_f: '6.5%',
+      y: '5%',
       rotation: "0deg"
     },
+    class: 'scale'
   },
-  "/": {
-    vals: ["/", "|"],
+  "\\": {
+    vals: ["\\", "|"],
     loc: {
       x: '',
-      y: '',
+      x_f: '1%',
+      y: '5%',
       rotation: "0deg"
     },
+    class: 'scale'
   },
   ",": {
     vals: [",", "<"],

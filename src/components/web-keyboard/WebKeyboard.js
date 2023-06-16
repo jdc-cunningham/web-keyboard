@@ -8,6 +8,9 @@ let cleanUpTimeout;
 function WebKeyboard() {
   const [activeKeys, setActiveKeys] = useState([]);
   const [shiftOn, setShiftOn] = useState(false);
+  const [numOn, setNumOn] = useState(false);
+
+  const numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
 
   const keyOn = (key) => {
     if (!(activeKeys.includes(key))) {
@@ -40,13 +43,13 @@ function WebKeyboard() {
   }, [])
 
   return (
-    <div className="WebKeyboard">
+    <div className={`WebKeyboard ${numOn ? 'numbers-on' : ''}`}>
       {Object.keys(keys).map((key, index) => {
         const keyInfo = keys[key];
 
         return <div
           key={index}
-          className={`WebKeyboard__key ${keyInfo?.class} ${activeKeys.includes(key) ? 'active' : ''}`}
+          className={`WebKeyboard__key ${keyInfo?.class || ''} ${activeKeys.includes(key) ? 'active' : ''} ${numbers.includes(key) ? 'number' : 'char'}`}
           onTouchStart={() => keyOn(key)}
           onTouchEnd={() => keyOff(key)}
           style={{
