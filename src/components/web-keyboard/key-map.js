@@ -35,8 +35,8 @@ export const keys = {
   "e": {
     vals: ["e"],
     loc: {
-      x: '',
-      y: '',
+      x: '33%',
+      y: '10%',
       rotation: "0deg"
     },
   },
@@ -71,7 +71,8 @@ export const keys = {
     vals: ["i"],
     loc: {
       x: '',
-      y: '',
+      x_f: '33%',
+      y: '10%',
       rotation: "0deg"
     },
   },
@@ -123,7 +124,8 @@ export const keys = {
     vals: ["o"],
     loc: {
       x: '',
-      y: '',
+      x_f: '26%',
+      y: '0.5%',
       rotation: "0deg"
     },
   },
@@ -131,15 +133,17 @@ export const keys = {
     vals: ["p"],
     loc: {
       x: '',
-      y: '',
+      x_f: '18.5%',
+      y: '0',
       rotation: "0deg"
     },
+    class: 'scale'
   },
   "q": {
     vals: ["q"],
     loc: {
-      x: '12%',
-      y: '5%',
+      x: '18.5%',
+      y: '0',
       rotation: "0deg"
     },
     class: 'scale'
@@ -189,8 +193,8 @@ export const keys = {
   "w": {
     vals: ["w"],
     loc: {
-      x: '',
-      y: '',
+      x: '26%',
+      y: '0.5%',
       rotation: "0deg"
     },
   },
