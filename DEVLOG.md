@@ -50,3 +50,8 @@ ugh man whatever
 
 hmm... the rapid clicks moves windows around/interpretted as gestures
 
+12:41 PM
+
+this is kind of fun making an interface, I want to add a sound to it too
+
+ugh... but the rapid typing triggers some gesture (minimizes chromium)
