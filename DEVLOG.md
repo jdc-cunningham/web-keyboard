@@ -77,3 +77,21 @@ oh man this keyboard is scuffed
 1:57 PM
 
 back on quick snack break
+
+2:17 PM
+
+I have to make the largest dimension a little smaller/shift things around
+
+I think sicne backspace is on the same line as numbers, I will just add the numbers
+
+<img src="./pre-down-scale.png"/>
+
+It's funny I might have to sell this laptop for money anyway lol
+
+Despite designing apps around it
+
+ASTRA man... I'm down 80% on that lol
+
+2:20 PM
+
+this is going to suck this down scale
