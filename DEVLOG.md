@@ -29,3 +29,9 @@ The reason I'm making this is currently my Chromebook running Manjaro Linux won'
 my scuffed alignment view
 
 <img src="./align.JPG"/>
+
+11:58 AM
+
+this project may have a flaw already, single clicks
+
+maybe it's not noticeable but so far I'm noticing it lol even with just two keys

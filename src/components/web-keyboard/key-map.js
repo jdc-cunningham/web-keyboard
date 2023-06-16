@@ -42,8 +42,8 @@ export const keys = {
   "f": {
     vals: ["f"],
     loc: {
-      x: 0,
-      y: 0,
+      x: '40%',
+      y: '40%',
       rotation: "0deg"
     },
   },
@@ -74,8 +74,9 @@ export const keys = {
   "j": {
     vals: ["j"],
     loc: {
-      x: 0,
-      y: 0,
+      x: '',
+      x_f: '40%',
+      y: '40%',
       rotation: "0deg"
     },
   },
