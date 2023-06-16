@@ -11,7 +11,7 @@ export const keys = {
     vals: ["b"],
     loc: {
       x: '47.5%',
-      y: '70%',
+      y: '75%',
       rotation: "0deg",
     },
     class: 'scale'
@@ -20,7 +20,7 @@ export const keys = {
     vals: ["c"],
     loc: {
       x: '36%',
-      y: '70%',
+      y: '75%',
       rotation: "0deg"
     },
   },
@@ -44,7 +44,7 @@ export const keys = {
     vals: ["f"],
     loc: {
       x: '40%',
-      y: '55%',
+      y: '58%',
       rotation: "0deg"
     },
   },
@@ -107,7 +107,7 @@ export const keys = {
     vals: ["m"],
     loc: {
       x_f: '35.5%',
-      y: '70%',
+      y: '75%',
       rotation: "0deg"
     },
   },
@@ -115,7 +115,7 @@ export const keys = {
     vals: ["n"],
     loc: {
       x: '53.25%',
-      y: '70%',
+      y: '75%',
       rotation: "0deg"
     },
     class: 'scale'
@@ -152,7 +152,7 @@ export const keys = {
     vals: ["r"],
     loc: {
       x: '40%',
-      y: '19%',
+      y: '41%',
       rotation: "0deg"
     },
   },
@@ -185,7 +185,7 @@ export const keys = {
     vals: ["v"],
     loc: {
       x: '41.75%',
-      y: '70%',
+      y: '75%',
       rotation: "0deg"
     },
     class: 'scale'
@@ -201,8 +201,8 @@ export const keys = {
   "x": {
     vals: ["x"],
     loc: {
-      x: '29%',
-      y: '62%',
+      x: '30.25%',
+      y: '75%',
       rotation: "0deg"
     },
   },
@@ -228,7 +228,7 @@ export const keys = {
     loc: {
       x: '',
       x_f: '18%',
-      y: '17%',
+      y: '55%',
       rotation: "0deg"
     },
   },
@@ -274,8 +274,8 @@ export const keys = {
     vals: [",", "<"],
     loc: {
       x: '',
-      x_f: '29%',
-      y: '52%',
+      x_f: '29.75%',
+      y: '75%',
       rotation: "0deg"
     },
   },
@@ -283,8 +283,8 @@ export const keys = {
     vals: [".", ">"],
     loc: {
       x: '',
-      x_f: '22%',
-      y: '42%',
+      x_f: '24%',
+      y: '75%',
       rotation: "0deg"
     },
   },
@@ -292,11 +292,19 @@ export const keys = {
     vals: ["/", "?"],
     loc: {
       x: '',
-      x_f: '16%',
-      y: '42%',
+      x_f: '18.25%',
+      y: '75%',
       rotation: "0deg"
     },
     class: 'scale'
+  },
+  "`": {
+    vals: ["`", "~"],
+    loc: {
+      x: '5%',
+      y: '24%',
+      rotation: "0deg"
+    },
   },
   "1": {
     vals: ["1", "!"],
