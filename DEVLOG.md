@@ -103,3 +103,7 @@ generally it's 10% down, 2% across
 2:40 PM
 
 cat distraction
+
+3:18 PM
+
+it might be defeat but I may just build a conventional design in order to get this done soon

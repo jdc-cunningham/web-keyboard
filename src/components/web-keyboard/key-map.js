@@ -28,7 +28,7 @@ export const keys = {
     vals: ["d"],
     loc: {
       x: '35%',
-      y: '40%',
+      y: '50%',
       rotation: "0deg"
     },
   },
@@ -51,7 +51,7 @@ export const keys = {
   "g": {
     vals: ["g"],
     loc: {
-      x: '45%',
+      x: '45.125%',
       y: '55%',
       rotation: "0deg"
     },
@@ -61,7 +61,7 @@ export const keys = {
     vals: ["h"],
     loc: {
       x: '',
-      x_f: '45%',
+      x_f: '45.125%',
       y: '55%',
       rotation: "0deg"
     },
@@ -90,7 +90,7 @@ export const keys = {
     loc: {
       x: '',
       x_f: '35%',
-      y: '40%',
+      y: '50%',
       rotation: "0deg"
     },
   },
