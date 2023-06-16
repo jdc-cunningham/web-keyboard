@@ -207,4 +207,236 @@ export const keys = {
       rotation: ''
     },
   },
+  ';': {
+    vals: [';', ':'],
+    loc: {
+      x: 0,
+      y: 0,
+      rotation: ''
+    },
+  },
+  ',': {
+    vals: [',', '"'],
+    loc: {
+      x: 0,
+      y: 0,
+      rotation: ''
+    },
+  },
+  '[': {
+    vals: ['[', '{'],
+    loc: {
+      x: 0,
+      y: 0,
+      rotation: ''
+    },
+  },
+  ']': {
+    vals: [']', '}'],
+    loc: {
+      x: 0,
+      y: 0,
+      rotation: ''
+    },
+  },
+  '\/': {
+    vals: ['\/', '|'],
+    loc: {
+      x: 0,
+      y: 0,
+      rotation: ''
+    },
+  },
+  ',': {
+    vals: [',', '<'],
+    loc: {
+      x: 0,
+      y: 0,
+      rotation: ''
+    },
+  },
+  '.': {
+    vals: ['.', '>'],
+    loc: {
+      x: 0,
+      y: 0,
+      rotation: ''
+    },
+  },
+  '/': {
+    vals: ['/', '?'],
+    loc: {
+      x: 0,
+      y: 0,
+      rotation: ''
+    },
+  },
+  '1': {
+    vals: ['1', '!'],
+    loc: {
+      x: 0,
+      y: 0,
+      rotation: ''
+    },
+  },
+  '2': {
+    vals: ['2', '@'],
+    loc: {
+      x: 0,
+      y: 0,
+      rotation: ''
+    },
+  },
+  '3': {
+    vals: ['3', '#'],
+    loc: {
+      x: 0,
+      y: 0,
+      rotation: ''
+    },
+  },
+  '4': {
+    vals: ['4', '$'],
+    loc: {
+      x: 0,
+      y: 0,
+      rotation: ''
+    },
+  },
+  '5': {
+    vals: ['5', '%'],
+    loc: {
+      x: 0,
+      y: 0,
+      rotation: ''
+    },
+  },
+  '6': {
+    vals: ['6', '^'],
+    loc: {
+      x: 0,
+      y: 0,
+      rotation: ''
+    },
+  },
+  '7': {
+    vals: ['7', '&'],
+    loc: {
+      x: 0,
+      y: 0,
+      rotation: ''
+    },
+  },
+  '8': {
+    vals: ['8', '*'],
+    loc: {
+      x: 0,
+      y: 0,
+      rotation: ''
+    },
+  },
+  '9': {
+    vals: ['9', '('],
+    loc: {
+      x: 0,
+      y: 0,
+      rotation: ''
+    },
+  },
+  '0': {
+    vals: ['0', ')'],
+    loc: {
+      x: 0,
+      y: 0,
+      rotation: ''
+    },
+  },
+  '-': {
+    vals: ['-', '_'],
+    loc: {
+      x: 0,
+      y: 0,
+      rotation: ''
+    },
+  },
+  '+': {
+    vals: ['+', '='],
+    loc: {
+      x: 0,
+      y: 0,
+      rotation: ''
+    },
+  },
+  'shift': {
+    vals: ['shift'],
+    loc: {
+      x: 0,
+      y: 0,
+      rotation: ''
+    },
+  },
+  'tab': {
+    vals: ['tab'],
+    loc: {
+      x: 0,
+      y: 0,
+      rotation: ''
+    },
+  },
+  'caps': {
+    vals: ['caps'],
+    loc: {
+      x: 0,
+      y: 0,
+      rotation: ''
+    },
+  },
+  'ctrl': {
+    vals: ['ctrl'],
+    loc: {
+      x: 0,
+      y: 0,
+      rotation: ''
+    },
+  },
+  'alt': {
+    vals: ['alt'],
+    loc: {
+      x: 0,
+      y: 0,
+      rotation: ''
+    },
+  },
+  'up': {
+    vals: ['up'],
+    loc: {
+      x: 0,
+      y: 0,
+      rotation: ''
+    },
+  },
+  'down': {
+    vals: ['down'],
+    loc: {
+      x: 0,
+      y: 0,
+      rotation: ''
+    },
+  },
+  'left': {
+    vals: ['left'],
+    loc: {
+      x: 0,
+      y: 0,
+      rotation: ''
+    },
+  },
+  'right': {
+    vals: ['right'],
+    loc: {
+      x: 0,
+      y: 0,
+      rotation: ''
+    },
+  },
 };
