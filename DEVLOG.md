@@ -1,3 +1,15 @@
+06/17/2023
+
+3:12 PM
+
+did some work on the drawing app now back on here
+
+I'm going to rework the way this is made... it will use row groupings and match standard keyboard layouts just for the sake of getting it done
+
+
+
+---
+
 06/16/2023
 
 10:08 AM
