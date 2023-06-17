@@ -10,6 +10,20 @@ the other positive of a standard layout keyboard is the automatic scaling
 
 ugh... the object key order is not honored dang
 
+4:12 PM
+
+Okay so I have a rendered keyboard, not all the keys are the right size, so honing that in
+
+Desinging around this 13" 4K display
+
+Although how big is my browser says 2194px wide
+
+4:21 PM
+
+ehh... I don't really like the sizing but it works as a keyboard
+
+need to eat
+
 ---
 
 06/16/2023

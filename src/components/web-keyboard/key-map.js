@@ -47,7 +47,7 @@ export const keyboardRows = [
   [
     {
       vals: ["tab"],
-      class: ''
+      class: 'tab'
     },
     {
       vals: ["q"],
@@ -99,7 +99,7 @@ export const keyboardRows = [
   [
     {
       vals: ["caps"],
-      class: ''
+      class: 'caps'
     },
     {
       vals: ["a"],
@@ -144,8 +144,8 @@ export const keyboardRows = [
   [
     {
       alt: "shift",
-      vals: ["shift"],
-      class: ''
+      vals: ["l-shift"],
+      class: 'l-shift'
     },
     {
       vals: ["z"],
@@ -183,7 +183,7 @@ export const keyboardRows = [
     },
     {
       alt: "shift",
-      vals: ["shift"],
+      vals: ["r-shift"],
       class: ''
     },
     {
@@ -196,11 +196,12 @@ export const keyboardRows = [
     {
       alt: "ctrl",
       vals: ["ctrl"],
-      class: ''
+      class: 'l-ctrl'
     },
     {
       alt: 'alt',
       vals: ["alt"],
+      class: 'l-alt'
     },
     {
       vals: [" "],
