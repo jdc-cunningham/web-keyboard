@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import './WebKeyboard.scss';
-import { keys } from './key-map';
-import { cleanup } from '@testing-library/react';
+import { keyboardRows } from './key-map';
 
 let cleanUpTimeout;
 
@@ -10,7 +9,7 @@ function WebKeyboard() {
   const [shiftOn, setShiftOn] = useState(false);
   const [numOn, setNumOn] = useState(false);
 
-  const numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
+  // const numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
 
   const keyOn = (key) => {
     if (!(activeKeys.includes(key))) {
@@ -18,9 +17,9 @@ function WebKeyboard() {
     }
 
     if (shiftOn) {
-      console.log(keys[key].vals[1]);
+      // console.log(keyboardRows[key].vals[1]);
     } else {
-      console.log(keys[key].vals[0]);
+      // console.log(keyboardRows[key].vals[0]);
     }
   }
 
@@ -43,23 +42,25 @@ function WebKeyboard() {
   }, [])
 
   return (
-    <div className={`WebKeyboard ${numOn ? 'numbers-on' : ''}`}>
-      {Object.keys(keys).map((key, index) => {
-        const keyInfo = keys[key];
+    <div className="WebKeyboard">
+      {keyboardRows.map((rowKeys, rowIndex) => {
+        return <div key={rowIndex} className="WebKeyboard__row">
+          {Object.keys(rowKeys).map((rowKey, keyIndex) => {
+            const keyInfo = rowKeys[rowKey];
 
-        return <div
-          key={index}
-          className={`WebKeyboard__key ${keyInfo?.class || ''} ${activeKeys.includes(key) ? 'active' : ''} ${numbers.includes(key) ? 'number' : 'char'}`}
-          onTouchStart={() => keyOn(key)}
-          onTouchEnd={() => keyOff(key)}
-          style={{
-            top: `${keyInfo.loc.y || 750}px`,
-            left: `${keyInfo.loc.x}`,
-            right: `${keyInfo.loc?.x_f}`,
-            transform: keyInfo.loc?.rotation ? `rotate(${keyInfo.loc.rotation}deg)` : '',
-          }}
-        >
-          <div className="WebKeyboard__display-key">{keyInfo?.alt || key}</div>
+            return <div
+              key={keyIndex}
+              className={`WebKeyboard__row-key ${keyInfo?.class || ''} ${activeKeys.includes(rowKey) ? 'active' : ''}`}
+              onTouchStart={() => keyOn(rowKey)}
+              onTouchEnd={() => keyOff(rowKey)}
+              style={{
+                
+              }}
+            >
+              <div className="WebKeyboard__display-key">{keyInfo?.alt || rowKey}</div>
+              {keyInfo.vals.length > 1 && <div className="WebKeyboard__display-key-alts">{keyInfo.vals[1]}</div>}
+            </div>
+          })}
         </div>
       })}
     </div>

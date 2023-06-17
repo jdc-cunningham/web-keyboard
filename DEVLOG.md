@@ -1,3 +1,15 @@
+06/17/2023
+
+3:22 PM
+
+Okay I'm going to work on a standard layout now
+
+the other positive of a standard layout keyboard is the automatic scaling
+
+
+
+---
+
 06/16/2023
 
 10:08 AM
