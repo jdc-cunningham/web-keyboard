@@ -34,7 +34,7 @@
   margin: 0.25rem;
 
   @media only screen and (max-width: 1500px) {
-    padding: 2.75rem;
+    padding: 2.5rem;
   }
 
   &.active {
@@ -64,11 +64,15 @@
   }
 
   &.enter {
-    width: 30%;
+    width: 20%;
   }
 
   &.up {
     margin-right: 6.65rem;
+  }
+
+  &.backspace {
+    width: 10rem;
   }
 }
 

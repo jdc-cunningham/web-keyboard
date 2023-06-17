@@ -40,8 +40,8 @@ export const keyboardRows = [
       vals: ["+", "="],
     },
     {
-      vals: ["<-"],
-      class: ''
+      vals: ["backspace"],
+      class: 'backspace'
     }
   ],
   [
