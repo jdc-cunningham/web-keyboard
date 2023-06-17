@@ -16,7 +16,7 @@
 .WebKeyboard__row {
   display: flex;
   align-items: flex-start;
-  justify-content: flex-start;
+  justify-content: space-between;
   flex-direction: row;
   width: 100%;
 }
@@ -34,16 +34,50 @@
   margin: 0.25rem;
 
   @media only screen and (max-width: 1500px) {
-    padding: 3rem;
+    padding: 2.75rem;
   }
 
   &.active {
     background-color: #505050;
   }
+
+  &.left {
+    .WebKeyboard__display-key {
+      transform: rotate(-90deg);
+    }
+  }
+
+  &.right {
+    .WebKeyboard__display-key {
+      transform: rotate(90deg);
+    }
+  }
+
+  &.down {
+    .WebKeyboard__display-key {
+      transform: rotate(180deg);
+    }
+  }
+
+  &.space {
+    width: 50%;
+  }
+
+  &.enter {
+    width: 30%;
+  }
+
+  &.up {
+    margin-right: 6.65rem;
+  }
 }
 
 .WebKeyboard__display-key {
   font-size: 2rem;
+
+  @media only screen and (max-width: 1500px) {
+    font-size: 1.75rem;
+  }
 }
 
 .WebKeyboard__display-key-alts {

@@ -45,8 +45,8 @@ function WebKeyboard() {
     <div className="WebKeyboard">
       {keyboardRows.map((rowKeys, rowIndex) => {
         return <div key={rowIndex} className="WebKeyboard__row">
-          {Object.keys(rowKeys).map((rowKey, keyIndex) => {
-            const keyInfo = rowKeys[rowKey];
+          {rowKeys.map((keyInfo, keyIndex) => {
+            const rowKey = keyInfo.vals[0];
 
             return <div
               key={keyIndex}

@@ -1,235 +1,236 @@
 export const keyboardRows = [
-  {
-    "`": {
+  [
+    {
       vals: ["`", "~"],
     },
-    "1": {
+    {
       vals: ["1", "!"],
     },
-    "2": {
+    {
       vals: ["2", "@"],
     },
-    "3": {
+    {
       vals: ["3", "#"],
     },
-    "4": {
+    {
       vals: ["4", "$"],
     },
-    "5": {
+    {
       vals: ["5", "%"],
     },
-    "6": {
+    {
       vals: ["6", "^"],
     },
-    "7": {
+    {
       vals: ["7", "&"],
     },
-    "8": {
+    {
       vals: ["8", "*"],
     },
-    "9": {
+    {
       vals: ["9", "("],
     },
-    "0": {
+    {
       vals: ["0", ")"],
     },
-    "-": {
+    {
       vals: ["-", "_"],
     },
-    "+": {
+    {
       vals: ["+", "="],
     },
-    "backspace": {
+    {
       vals: ["<-"],
-      class: 'backspace'
+      class: ''
     }
-  },
-  {
-    "tab": {
+  ],
+  [
+    {
       vals: ["tab"],
-      class: 'scale tab'
+      class: ''
     },
-    "q": {
+    {
       vals: ["q"],
-      class: 'scale'
+      class: ''
     },
-    "w": {
+    {
       vals: ["w"],
     },
-    "e": {
+    {
       vals: ["e"],
     },
-    "r": {
+    {
       vals: ["r"],
     },
-    "t": {
+    {
       vals: ["t"],
-      class: 'scale-2'
+      class: ''
     },
-    "y": {
+    {
       vals: ["y"],
-      class: 'scale-2'
+      class: ''
     },
-    "u": {
+    {
       vals: ["u"],
     },
-    "i": {
+    {
       vals: ["i"],
     },
-    "o": {
+    {
       vals: ["o"],
     },
-    "p": {
+    {
       vals: ["p"],
-      class: 'scale'
+      class: ''
     },
-    "[": {
+    {
       vals: ["[", "{"],
-      class: 'scale'
+      class: ''
     },
-    "]": {
+    {
       vals: ["]", "}"],
-      class: 'scale'
+      class: ''
     },
-    "\\": {
+    {
       vals: ["\\", "|"],
-      class: 'scale'
+      class: ''
     },
-  },
-  {
-    "caps": {
+  ],
+  [
+    {
       vals: ["caps"],
-      class: 'scale caps'
+      class: ''
     },
-    "a": {
+    {
       vals: ["a"],
     },
-    "s": {
+    {
       vals: ["s"],
     },
-    "d": {
+    {
       vals: ["d"],
     },
-    "f": {
+    {
       vals: ["f"],
     },
-    "g": {
+    {
       vals: ["g"],
-      class: 'scale-2'
+      class: ''
     },
-    "h": {
+    {
       vals: ["h"],
-      class: 'scale-2'
+      class: ''
     },
-    "j": {
+    {
       vals: ["j"],
     },
-    "k": {
+    {
       vals: ["k"],
     },
-    "l": {
+    {
       vals: ["l"],
     },
-    ";": {
+    {
       vals: [";", ":"],
     },
-    "'": {
+    {
       vals: ["'", '"'],
     },
-    "enter": {
+    {
       vals: ["enter"],
-      class: 'scale enter'
+      class: 'enter'
     },
-  },
-  {
-    "shift_1": {
+  ],
+  [
+    {
       alt: "shift",
       vals: ["shift"],
-      class: 'scale tab shift-left'
+      class: ''
     },
-    "z": {
+    {
       vals: ["z"],
     },
-    "x": {
+    {
       vals: ["x"],
     },
-    "c": {
+    {
       vals: ["c"],
     },
-    "v": {
+    {
       vals: ["v"],
-      class: 'scale'
+      class: ''
     },
-    "b": {
+    {
       vals: ["b"],
-      class: 'scale'
+      class: ''
     },
-    "n": {
+    {
       vals: ["n"],
-      class: 'scale'
+      class: ''
     },
-    "m": {
+    {
       vals: ["m"],
     },
-    ",": {
+    {
       vals: [",", "<"],
     },
-    ".": {
+    {
       vals: [".", ">"],
     },
-    "/": {
+    {
       vals: ["/", "?"],
-      class: 'scale'
+      class: ''
     },
-    "shift_2": {
+    {
       alt: "shift",
       vals: ["shift"],
-      class: 'scale tab shift-right hidden'
+      class: ''
     },
-    "up": {
+    {
       vals: ["up"],
       alt: "^",
-      class: "scale up"
+      class: "up"
     },
-  },
-  {
-    "ctrl_1": {
+  ],
+  [
+    {
       alt: "ctrl",
       vals: ["ctrl"],
-      class: 'ctrl-1'
+      class: ''
     },
-    "alt_1": {
+    {
       alt: 'alt',
       vals: ["alt"],
     },
-    "space": {
+    {
       vals: [" "],
+      alt: "space",
       class: "space",
     },
-    "alt_2": {
+    {
       alt: 'alt',
       vals: ["alt"],
-      class: 'scale'
+      class: ''
     },
-    "ctrl_2": {
+    {
       alt: "ctrl",
       vals: ["ctrl"],
-      class: 'scale'
+      class: ''
     },
-    "left": {
+    {
       vals: ["left"],
       alt: "^",
-      class: "scale left"
+      class: "left"
     },
-    "down": {
+    {
       vals: ["down"],
       alt: "^",
-      class: "scale down"
+      class: "down"
     },
-    "right": {
+    {
       vals: ["right"],
       alt: "^",
-      class: "scale right"
+      class: "right"
     },
-  }
+  ]
 ];

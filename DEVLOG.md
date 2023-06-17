@@ -6,7 +6,9 @@ Okay I'm going to work on a standard layout now
 
 the other positive of a standard layout keyboard is the automatic scaling
 
+3:52 PM
 
+ugh... the object key order is not honored dang
 
 ---
 
