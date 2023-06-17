@@ -24,6 +24,10 @@ ehh... I don't really like the sizing but it works as a keyboard
 
 need to eat
 
+4:29 PM
+
+alright back on, need to test shift
+
 ---
 
 06/16/2023

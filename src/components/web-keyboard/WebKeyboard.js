@@ -7,19 +7,20 @@ let cleanUpTimeout;
 function WebKeyboard() {
   const [activeKeys, setActiveKeys] = useState([]);
   const [shiftOn, setShiftOn] = useState(false);
-  const [numOn, setNumOn] = useState(false);
 
-  // const numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
-
-  const keyOn = (key) => {
+  const keyOn = (key, key2) => {
     if (!(activeKeys.includes(key))) {
       setActiveKeys([...activeKeys, key]);
     }
 
+    if (key.includes('shift')) {
+      setShiftOn(true);
+    }
+
     if (shiftOn) {
-      // console.log(keyboardRows[key].vals[1]);
+      console.log(key2);
     } else {
-      // console.log(keyboardRows[key].vals[0]);
+      console.log(key);
     }
   }
 
@@ -28,12 +29,15 @@ function WebKeyboard() {
 
     setTimeout(() => {
       setActiveKeys(activeKeys.filter(keyActive => keyActive !== key));
+
+      if (key.includes('shift')) {
+        setShiftOn(false);
+      }
     }, 100);
 
     cleanUpTimeout = setTimeout(() => {
-      console.log('clean up');
       setActiveKeys([]);
-    }, 250);
+    }, 1000);
   }
 
   useEffect(() => {
@@ -51,7 +55,7 @@ function WebKeyboard() {
             return <div
               key={keyIndex}
               className={`WebKeyboard__row-key ${keyInfo?.class || ''} ${activeKeys.includes(rowKey) ? 'active' : ''}`}
-              onTouchStart={() => keyOn(rowKey)}
+              onTouchStart={() => keyOn(rowKey, keyInfo.vals.length > 1 ? keyInfo.vals[1] : '')}
               onTouchEnd={() => keyOff(rowKey)}
               style={{
                 
